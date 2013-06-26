@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+   <title>index</title>
+   <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+   <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+   <script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+</head>
+
+<body>
+
+    <div data-role="page" id="homepage">
+     <div data-role="header">
+        <h1>Brandeis App Home Page</h1>
+    	</div>
+    	<div data-role="content">
+        	Welcome to the Brandeis App!
+    	</div>
+    	<div>
+        	<br>
+            	<ul data-role = "listview">
+    				<li> 
+    				<a href = "newdiningpage.html" data-role = "button"> Dining </a>
+    			    </li>
+ 					<li> <a href="#calendar" data-role="button"> Calendar </a> </li>
+ 					<li> <a href = "#campusmap" data-role = "button"> Campus Map </a> </li>
+ 					<li> <a href="#info" data-role="button"> Info </a> </li>
+ 					<li> <a href="#latte" data-role="button"> Latte </a> </li>
+ 				</ul>
+ 			</br>
+ 		</div>
+ 		<div data-role="footer">
+ 			Home Page
+ 		</div>
+ 	</div>
+
+
+ 	<div data-role="page" id="dining">
+ 		<div data-role="header">
+ 			<h1>Dining</h1>
+ 		</div>
+	 	<div data-role="content">
+ 		<a href="newdiningpage.html" data-role="button">Dining</a>
+ 		</div>
+		
+		<div data-role="footer">
+ 			Dining
+ 		</div>
+ 	</div>
+  
+  	<div data-role="page" id="calendar">
+ 		<div data-role="header">
+ 			<h1> Calendar </h1>
+ 		</div>
+ 		<div data-role="content">
+ 			This the Academic Calendar
+		<br/>
+ 		<a href="#homepage" data-role="button">Home</a>
+		<br/>
+		</div>
+ 		<div data-role="footer">
+ 			Calendar
+ 		</div>
+  	</div>
+  	
+  	<div data-role="page" id="campusmap">
+ 		<div data-role="header">
+ 			<h1> Campus Map </h1>
+ 		</div>
+ 		<div data-role="content">
+ 			This the Campus Map
+		<br/>
+ 		<a href="#homepage" data-role="button">Home</a>
+		<br/>
+		</div>
+ 		<div data-role="footer">
+ 			Campus Map
+ 		</div>
+  	</div>
+  	
+  	<div data-role="page" id="info">
+ 		<div data-role="header">
+ 			<h1> Information </h1>
+ 		</div>
+ 		<div data-role="content">
+ 			Here is some Information
+		<br/>
+ 		<a href="#homepage" data-role="button">Home</a>
+		<br/>
+ 		<ul data-role = "listview">
+   			<li> Phone Directory </li>
+   			<li> Building Hours </li>
+		</div>
+ 		<div data-role="footer">
+ 			Information
+ 		</div>
+  	</div>
+
+  	<div data-role="page" id="latte">
+ 		<div data-role="header">
+ 			<h1> Latte </h1>
+ 		</div>
+ 		<div data-role="content">
+ 			Welcome to Latte
+		<br/>
+ 		<a href="#homepage" data-role="button">Home</a>
+		<br/>
+ 		<ul data-role = "listview">
+   			<li> Grades </li>
+   			<li> Assignments </li>
+		</div>
+ 		<div data-role="footer">
+ 			Latte
+ 		</div>
+  	</div>
+  	
+</body>
+</html>
